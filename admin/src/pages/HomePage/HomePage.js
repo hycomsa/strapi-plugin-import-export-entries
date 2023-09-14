@@ -37,7 +37,7 @@ const HomePage = () => {
         <Flex direction="column" alignItems="start" gap={8}>
           <Box style={{ alignSelf: 'stretch' }} background="neutral0" padding="32px" hasRadius={true}>
             <Flex direction="column" alignItems="start" gap={6}>
-              <Typography variant="alpha">{i18n('plugin.page.homepage.section.quick-actions.title', 'Quick Actions')}</Typography>
+              <Typography variant="alpha">{i18n('plugin.page.homepage.section.quick-actions.title', 'Quick Actions')} v1.21.1.ts</Typography>
 
               <Box>
                 <Flex direction="column" alignItems="start" gap={4}>
@@ -90,9 +90,6 @@ const HomePage = () => {
                   <Flex gap={4}>
                     <Link href="https://strapi-import-export-entries.canny.io" isExternal>
                       {i18n('plugin.page.homepage.section.need-help.product-roadmap', 'Product Roadmap')}
-                    </Link>
-                    <Link href="https://discord.gg/dcqCAFFdP8" isExternal>
-                      {i18n('plugin.page.homepage.section.need-help.discord', 'Discord')}
                     </Link>
                     <Link href="https://github.com/Baboo7/strapi-plugin-import-export-entries/issues" isExternal>
                       {i18n('plugin.page.homepage.section.need-help.github', 'GitHub')}
